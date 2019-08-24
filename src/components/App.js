@@ -1,10 +1,12 @@
-import React from 'react';
-import Drawer from './drawer/Drawer';
+import React from "react";
+import Drawer from "./drawer/Drawer";
+import SignUp from "./signUp/SignUp";
 
 function App() {
   return (
     <React.Fragment>
-      <Drawer />
+      {/* <Drawer /> */}
+      <SignUp />
     </React.Fragment>
   );
 }

@@ -1,0 +1,49 @@
+/* Material for SignUp page  */
+@import "@material/floating-label/mdc-floating-label";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  &__title {
+    font-size: 24px;
+    color: $mdc-theme-on-secondary;
+  }
+  &__title-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  &__wrapper {
+    width: 310px;
+    background-color: $mdc-theme-secondary-light;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 20px 50px 50px 50px;
+  }
+  &__input {
+    width: 100%;
+  }
+  &__extra-button {
+    background: white !important;
+  }
+}
+
+.custom-dialog-layout-grid {
+  padding: 0px;
+}
+
+.signupSecondPageButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.signupSecondPageText{
+  font-size: 14px;
+  color: $mdc-theme-on-secondary;
+}

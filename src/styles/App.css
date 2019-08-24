@@ -5,29 +5,31 @@
 @import "@material/drawer/mdc-drawer";
 @import "@material/top-app-bar/mdc-top-app-bar";
 
-
+@import "./components/signUp";
 
 body {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .mdc-drawer-app-content {
-    flex: auto;
-    overflow: auto;
-    position: relative;
-  }
-  
-  .main-content {
-    overflow: auto;
-    height: 100%;
-  }
-  
-  .app-bar {
-    position: absolute;
-  }
-  
-  
-  .mdc-top-app-bar {
-    z-index: 7;
-  }
+  display: flex;
+  height: 100vh;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.app-bar {
+  position: absolute;
+}
+
+.mdc-top-app-bar {
+  z-index: 7;
+}
+#root {
+  flex: 1;
+}
